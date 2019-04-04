@@ -7,8 +7,7 @@ LoadFile_Name = "E:\dataset\MachineLearningCVE"
 #load csvfiles
 file_list = os.listdir(LoadFile_Name)  
 
-#merge first csvfile
-
+#merge the first csvfile
 data = pd.read_csv(os.path.join(LoadFile_Name,file_list[0]),low_memory=False) 
 data.to_csv(SaveFile_Name,index=False,mode='a+')  
   
