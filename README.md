@@ -1,2 +1,2 @@
 # Anomaly-Detection
-based on the CICIDS2017 dataset
+Based on the CICIDS2017 dataset
