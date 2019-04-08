@@ -1,7 +1,6 @@
 import pandas as pd
 from time import time
 from sklearn.model_selection import train_test_split
-from time import time
 dataroot="E:\dataset\MachineLearningCVE\CICIDS2017.csv"
 TrainData_Name = "E:\dataset\MachineLearningCVE\TrainData.csv"
 TestData_Name = "E:\dataset\MachineLearningCVE\TestData.csv"
