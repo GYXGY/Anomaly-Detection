@@ -1,5 +1,6 @@
 # Anomaly-Detection
-Based on the CICIDS2017 dataset and Pytorch platform.<br>
+CICIDS2017 dataset<br>
+Pytorch platform<br>
 Model 1：KNN<br>
 "MergeFiles.py" implements the merging of multiple csv files.<br>
 "HoldOut.py" realizes the division of training set and test set by hold out method.<br>
