@@ -8,5 +8,6 @@ Model 1：KNN<br>
 "KNNClassifier.py" establishes K-Nearest Neighbor(KNN) model to achieve anomaly detection.<br>
 
 Model 2：RNN<br>
-"Dataloader.py"turns a csv file into a Pytorch dataloader used for network training and testing.<br>
+"MergeFiles.py" implements the merging of multiple csv files.<br>
+"Dataset_to_Dataloader.py"turns a csv file into a Pytorch dataloader used for network training and testing.<br>
 "LSTM.py"establishes Long Short-Term Memory(LSTM) model to achieve anomaly detection.<br>
