@@ -79,4 +79,8 @@ for epoch in range(EPOCH):
     pred_y = torch.max(test_output, 1)[1]
     y_predict=y_predict+pred_y.numpy().tolist()
   precision, recall, fscore, support = score(y_test, y_predict)
-  print('Epoch: ', epoch, '| train loss: %.4f' % loss.data.numpy(), '| precision: %.2f' % precision*100,'%', '| recall: %.2f' % recall*100,'%', '| F1: %.2f' % fscore,'| support:', support)
+  precision=precision*100
+  recall=recall*100
+  print('Epoch: ', epoch, '| train loss: %.4f' % loss.data.numpy())
+  for i in range(8):
+    print('Label: ', i,'| precision: %.2f' % precision[i],'%','| recall: %.2f' % recall[i],'%','| F1: %.2f' % fscore[i],'| support:', support[i])
