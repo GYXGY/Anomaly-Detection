@@ -11,3 +11,4 @@ Model 2：RNN<br>
 "MergeFiles.py" implements the merging of multiple csv files.<br>
 "Dataset_to_Dataloader.py"turns a csv file into a Pytorch dataloader used for network training and testing.<br>
 "LSTM.py"establishes Long Short-Term Memory(LSTM) model to achieve anomaly detection.<br>
+"Multiple_LSTM.py"establishes Long Short-Term Memory(LSTM) model to achieve  multi-class classification.<br>
